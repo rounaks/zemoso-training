@@ -1,0 +1,78 @@
+body{
+background-color:#4CA6FF;
+}
+
+#navbar {
+	position: relative;
+	top:23px;
+	align:center;
+
+	left:39%;
+}
+ul{
+	list-style-type: none;
+	position: relative;
+	margin: -10px;
+}
+#header {
+	position: relative;
+	top: -8px;
+	background-color: #ff0074;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border:4px solid black
+}
+li {
+	display: inline;
+	border: 2px solid #000000;
+	font-family: Verdana;
+	color: #ffffff;
+	padding: 20px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	text-align:center;
+	background-color: #ff0074
+}
+
+h1{
+text-align:center;
+color:white;
+
+}
+
+p{
+margin-top:300px;
+text-align:center;
+margin-left:100px;
+font-family: Verdana;
+font-size: 2em;
+float: center;
+color:white;
+}
+#aboutme{
+font-size:1em;
+}
+
+h2{
+text-align:center;
+color:white;
+margin-top:125px;
+margin-bottom:-300px;
+}
+
+#contact{
+position: relative;
+	top:375px;
+
+	left:39.5%;
+}
+
+img {
+	width:200px;
+	height:200px;
+	
+}
+table{
+margin-top:350px;
+margin-left:640px;
+}
