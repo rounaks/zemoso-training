@@ -28,7 +28,7 @@ public class XORsol {
 	}
 	
 	
-	private static double score(byte[] b) {
+	public static double score(byte[] b) {
 		double  ScoreValue= 0;
 		for (int i = 0; i < b.length; i++) {
 			char c = (char)b[i];
@@ -43,7 +43,7 @@ public class XORsol {
 	}
 	
 	
-	private static byte[] decrypt(byte[] ciphertext, byte[] key) {
+	public static byte[] decrypt(byte[] ciphertext, byte[] key) {
 		byte[] plaintext = new byte[ciphertext.length];
 		for (int i = 0; i < ciphertext.length; i++)
 			plaintext[i] = (byte)(ciphertext[i] ^ key[i % key.length]);
